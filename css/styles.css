@@ -12,6 +12,20 @@ body{
 /* ##### END COMPONENTS ##### */
 
 /* ##### HEADER ##### */
+
+.navigation-logo-blue{
+    color:var(--main-color);
+}
+.navigation-logo{
+    font-family: 'Raleway';
+    font-style: normal;
+    font-weight: 700;
+    font-size: 26px;
+    line-height: 1.173;
+    letter-spacing: 0.02em;
+    color:#000000;
+    }
+
 .navigation-list-link {
     font-family: 'Roboto';
     font-style: normal;
@@ -21,10 +35,15 @@ body{
     letter-spacing: 0.02em;
     color: #212121;
 }
+.navigation-list-link{
+    list-style-type: none;
+    text-decoration-line: none;
+}
+
 .navigation-list-link:hover,
 .navigation-list-link:focus,
-.address:hover,
-.address:focus,
+.address-mail:hover,
+.address-mail:focus,
 .address-phone-number:hover,
 .address-phone-number:focus {
 color: var(--main-color) ;
@@ -40,7 +59,9 @@ color: var(--main-color) ;
 }     
 
 .modal-btn:hover,
-.modal-btn:focus {color:rgba(0, 0, 0, 0.15)}
+.modal-btn:focus {
+    color:rgba(0, 0, 0, 0.15);
+    cursor: pointer;}
 /* ##### END HEADER ##### */
 
 /* ##### MAIN ##### */
@@ -141,11 +162,14 @@ color: #FFFFFF;
     letter-spacing: 0.03em;
     color: rgba(255, 255, 255, 0.6);
 }
+.address-map-foot:hover,
+.address-map-foot:focus,
 .adress-foot:hover,
 .adress-foot:focus,
 .adress-phone-number-foot:hover
 .adress-phone-number-foot:focus{
     color: rgba(255, 255, 255, 0.6);
+    cursor: pointer;
 }
 
 /* ##### END FOOTER ##### */
@@ -166,7 +190,8 @@ color: #FFFFFF;
 .search-btn:hover,
 .search-btn:focus{
     color: #FFFFFF;
-    background: #2196F3; }
+    background: #2196F3;
+    cursor: pointer; }
 /* ##### END FILTR ##### */
 
 /* ##### MAIN ##### */
