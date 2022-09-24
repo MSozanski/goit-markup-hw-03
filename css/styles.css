@@ -1,9 +1,11 @@
 :root{
+    --main-font: 'Roboto', sans-serif;
+    --secondary-font: 'Raleway', sans-serif;
     --main-color: #2196F3;
 }
 
 .body {
-    font-family: 'Roboto', 'Raleway', sans-serif;
+    font-family: var(--main-font)
 }
 
 .list {
