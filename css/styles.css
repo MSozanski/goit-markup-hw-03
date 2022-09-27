@@ -5,7 +5,7 @@
 }
 
 .body {
-    font-family: var(--main-font)
+    font-family: var(--main-font), var(--secondary-font);
 }
 
 .list {
@@ -46,6 +46,9 @@
     color: #000000;
     text-decoration: none;
 }
+.navigation-logo-foot {
+    color: #FFFFFF;
+}
 
 .navigation-list-link {
     font-weight: 500;
@@ -73,6 +76,10 @@
     margin-right: 227px;
 }
 
+.address-mail, .address{
+    font-style: normal;
+}
+
 .address-mail,
 .address-phone-number {
     font-weight: 500;
@@ -84,7 +91,7 @@
 
 .modal-btn:hover,
 .modal-btn:focus {
-    color: rgba(0, 0, 0, 0.15);
+    color: #FFFFFF;
     cursor: pointer;
 }
 
@@ -197,10 +204,15 @@
 /* ##### END MAIN ##### */
 
 /* ##### FOOTER ##### */
+.footer {
+        background: #2F303A; ;
+}
+
 .address-map-foot {
     font-size: 14px;
     line-height: 1.714;
     letter-spacing: 0.03em;
+    color: #FFFFFF;
 }
 
 .adress-foot,
@@ -208,16 +220,15 @@
     font-size: 14px;
     line-height: 1.714;
     letter-spacing: 0.03em;
+    color: rgba(255, 255, 255, 0.6);
 
 }
 
-.address-map-foot:hover,
-.address-map-foot:focus,
-.adress-foot:hover,
 .adress-foot:focus,
+.adress-foot:hover,
 .adress-phone-number-foot:hover,
 .adress-phone-number-foot:focus {
-    color: rgba(255, 255, 255, 0.6);
+    color: var(--main-color);
     cursor: pointer;
 }
 
