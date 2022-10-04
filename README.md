@@ -1,2 +1,2 @@
-# goit-markup-hw-02
-Zadanie 2 GOIT
+# goit-markup-hw-03
+Zadanie 3 GOIT
