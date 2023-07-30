@@ -94,9 +94,6 @@ padding-right:46px;
   letter-spacing: 0.03em;
   text-decoration: none;
 }
-.navigation-logo-foot {
-  color: var(--white);
-}
 
 .navigation-list-link {
   font-weight: 500;
@@ -119,15 +116,16 @@ padding-right:46px;
   color: var(--ocean);
 }
  
+.address-mail{
+font-style: normal;
+
+}
+
 .address-phone-number {
   margin-right: 227px;
   display:block;
 }
 
-.address-mail,
-.address {
-  font-style: normal;
-}
 
 .address-mail{
   margin-left: 371px;
@@ -135,18 +133,10 @@ padding-right:46px;
 
 .address-mail,
 .address-phone-number {
-  font-weight: 500;
   font-size: 16px;
   line-height: 1.142;
   letter-spacing: 0.02em;
   color: var(--slate);
-}
-
-.modal-btn:hover,
-.modal-btn:focus {
-  color:var(--white);
-  background-color: var(--ocean);
-  cursor: pointer;
 }
 
 /* ##### END HEADER ##### */
@@ -180,7 +170,7 @@ padding-right:46px;
 }
 
 .modal-btn {
-  font-weight: 700;
+  font-weight: 500;
   font-size: 16px;
   line-height: 1.875;
   display: flex;
@@ -194,10 +184,15 @@ padding-right:46px;
   border-radius: 4px;
   width: 200px;
   height: 50px;
-  cursor: pointer;
   padding: 10px 39px;
 }
 
+.modal-btn:hover,
+.modal-btn:focus {
+  color: var(--white);
+  background-color: var(--ocean);
+  cursor: pointer;
+}
 .main-list {
   display: flex;
   justify-content: center;
@@ -207,6 +202,7 @@ padding-right:46px;
 
 .main-list-texth3 {
   font-size: 20px;
+  font-weight: 500;
   line-height: 1.143;
   letter-spacing: 0.03em;
   text-transform: uppercase;
@@ -236,7 +232,6 @@ padding-right:46px;
   font-weight: 500;
   font-size: 20px;
   line-height: 1.187;
-  /* identical to box height */
   text-align: center;
   letter-spacing: 0.03em;
 }
@@ -244,7 +239,6 @@ padding-right:46px;
 .main-list-team-under {
   font-size: 16px;
   line-height: 19px;
-  /* identical to box height */
   text-align: center;
   letter-spacing: 0.03em;
   color: var(--slate);
@@ -253,12 +247,17 @@ padding-right:46px;
 /* ##### END MAIN ##### */
 
 /* ##### FOOTER ##### */
+.footer>.navigation-logo {
+  color: var(--cloud);
+  font-weight: 800;
+}
 .footer {
   background: var(--navyblue);
 }
 
 .footer-mission{
 color: var(--cloud);
+font-size: 16px;
 }
 
 /* ##### END FOOTER ##### */
@@ -273,7 +272,6 @@ color: var(--cloud);
   text-align: center;
   letter-spacing: 0.03em;
   color: var(--iris);
-  cursor: pointer;
   padding: 6px 22px;
   background: var(--cornflower);
   border-radius: 4px;
@@ -291,7 +289,8 @@ color: var(--cloud);
 
 /* ##### MAIN ##### */
 .portfolio-main-list-text {
-  font-size: 18px;
+  font-size: 20px;
+  font-weight: 500;
   line-height: 2;
   letter-spacing: 0.06em;
 }
