@@ -36,7 +36,7 @@ body {
   padding: 0 15px;
 }
 
-.width {
+.composition {
   display: flex;
   justify-content: center;
 }
@@ -234,6 +234,7 @@ body {
 
 .main > .section:nth-child(4) {
   background: var(--cloud, #f4f4fd);
+  padding-bottom: 120px;
 }
 .main-texth2 {
   font-size: 36px;
@@ -258,7 +259,6 @@ body {
   box-shadow: 0px 2px 1px 0px rgba(46, 47, 66, 0.08),
     0px 1px 1px 0px rgba(46, 47, 66, 0.16),
     0px 1px 6px 0px rgba(46, 47, 66, 0.08);
-  margin-bottom: 120px;
 }
 .main-list-team-text {
   font-weight: 500;
@@ -338,7 +338,7 @@ body {
 
 /* ##### MAIN ##### */
 
-.main-portfolio > .section {
+.main-portfolio > .section:first-child {
   padding: 0px 0px 48px 0px;
 }
 
