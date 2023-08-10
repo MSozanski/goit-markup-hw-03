@@ -369,11 +369,10 @@ body {
   align-items: flex-start;
   flex-shrink: 0;
   width: 360px;
-  height: 420px;
 }
 
 .portfolio-main-list-card {
-  border-bottom: 1px solid var(--cornflower, #e7e9fc);
+  outline: 1px solid var(--cornflower, #e7e9fc);
   background: var(--white, #fff);
   width: 360px;
   padding: 0 16px;
